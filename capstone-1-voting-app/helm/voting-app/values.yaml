@@ -6,8 +6,8 @@ global:
 vote:
   replicaCount: 1
   image:
-    repository: dockersamples/examplevotingapp_vote
-    tag: "latest"
+    repository: bigmo44/examplevotingapp_vote
+    tag: latest
     pullPolicy: IfNotPresent
   service:
     type: NodePort
@@ -18,8 +18,8 @@ vote:
 result:
   replicaCount: 1
   image:
-    repository: dockersamples/examplevotingapp_result
-    tag: "latest"
+    repository: bigmo44/examplevotingapp_result
+    tag: latest
     pullPolicy: IfNotPresent
   service:
     type: NodePort
@@ -30,8 +30,8 @@ result:
 worker:
   replicaCount: 1
   image:
-    repository: dockersamples/examplevotingapp_worker
-    tag: "latest"
+    repository: bigmo44/examplevotingapp_worker
+    tag: latest
     pullPolicy: IfNotPresent
 
 redis:

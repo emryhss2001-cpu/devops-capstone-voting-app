@@ -1,0 +1,2 @@
+NAME      	NAMESPACE 	REVISION	UPDATED                                	STATUS  	CHART           	APP VERSION
+voting-app	voting-app	1       	2026-10-26 18:13:38.739176414 +0100 WAT	deployed	voting-app-0.1.0	1.0.0

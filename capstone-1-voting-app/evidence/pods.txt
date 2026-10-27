@@ -1,0 +1,6 @@
+NAME                      READY   STATUS    RESTARTS   AGE   IP              NODE                                          NOMINATED NODE   READINESS GATES
+db-5b5f95798-zm99q        1/1     Running   0          26m   172.31.22.58    ip-172-31-30-157.eu-west-1.compute.internal   <none>           <none>
+redis-5b98585d5f-b9jv2    1/1     Running   0          26m   172.31.8.166    ip-172-31-1-117.eu-west-1.compute.internal    <none>           <none>
+result-c4c885859-5n5qh    1/1     Running   0          26m   172.31.25.126   ip-172-31-30-157.eu-west-1.compute.internal   <none>           <none>
+vote-684cbf7c5d-trb87     1/1     Running   0          26m   172.31.4.200    ip-172-31-1-117.eu-west-1.compute.internal    <none>           <none>
+worker-7bb66bfdb9-vdg9m   1/1     Running   0          26m   172.31.29.184   ip-172-31-30-157.eu-west-1.compute.internal   <none>           <none>
